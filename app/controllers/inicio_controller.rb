@@ -7,9 +7,9 @@ class InicioController < ApplicationController
     #             { name: 'Ralp', data: [5, 7, 3] },
     #             { name: 'John', data: [5, 7, 3] }]}
 
-    @datos2 =  [{ name: 'Jane', data: [["Muestra A",  5],["Muestra B", 17],["Muestra C", 49],["Muestra D", 7]] }, 
-                { name: 'Ralp', data: [["Muestra A", 25],["Muestra B", 12],["Muestra C", 51],["Muestra D", 9]] },
-                { name: 'John', data: [["Muestra A", 15],["Muestra B", 19],["Muestra C", 56],["Muestra D", 11]] }]
+    @datos2 =  [{ name: 'Jane', data: [["Muestra A",  5],["Muestra B", 17],["Muestra C", 49],["Muestra D",  7]] }, 
+                { name: 'Ralp', data: [["Muestra A", 25],["Muestra B", 12],["Muestra C", 71]] },
+                { name: 'John', data: [["Muestra A", 25],["Muestra B", 19],["Muestra C", 56],["Muestra E", 11]] }]
 
 # @datos2 = 
 # [
