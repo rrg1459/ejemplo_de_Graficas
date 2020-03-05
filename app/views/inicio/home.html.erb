@@ -1,0 +1,39 @@
+<h1><center><%= "#{@titulo}" %></center></h1>
+
+<hr>
+
+<h3><center><%= "Pie Chart" %></center></h3>
+<%= pie_chart    @datos %>
+<hr>
+
+<h3><center><%= "Pie Chart Donut" %></center></h3>
+<%= pie_chart    @datos, donut: true %>
+<hr>
+
+<h3><center><%= "Line Chart" %></center></h3>
+<%= line_chart   @datos %>
+<hr>
+
+<h3><center><%= "Line Chart Color" %></center></h3>
+<%= line_chart   @datos, colors: ["#b00", "#666"] %>
+<hr>
+
+<h3><center><%= "Line Chart Titulos" %></center></h3>
+<%= line_chart   @datos, xtitle: "Muestras", ytitle: "Numeros" %>
+<hr>
+
+<h3><center><%= "Column Chart" %></center></h3>
+<%= column_chart @datos %>
+<hr>
+
+<h3><center><%= "Bar Chart" %></center></h3>
+<%= bar_chart @datos %>
+<hr>
+
+<h3><center><%= "Area Chart" %></center></h3>
+<%= area_chart @datos %>
+<hr>
+
+<h3><center><%= "Scatter Chart" %></center></h3>
+<%= scatter_chart @puntos %>
+<hr>
