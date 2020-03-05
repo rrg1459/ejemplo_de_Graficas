@@ -14,6 +14,10 @@
 <%= line_chart   @datos %>
 <hr>
 
+<h3><center><%= "Line Chart 3 series" %></center></h3>
+<%= line_chart   @datos2 %>
+<hr>
+
 <h3><center><%= "Line Chart Color" %></center></h3>
 <%= line_chart   @datos, colors: ["#b00", "#666"] %>
 <hr>
@@ -28,6 +32,14 @@
 
 <h3><center><%= "Bar Chart" %></center></h3>
 <%= bar_chart @datos %>
+<hr>
+
+<h3><center><%= "Bar Chart con leyenda" %></center></h3>
+<%= bar_chart @datos, legend: "top" %>
+<hr>
+
+<h3><center><%= "Bar Chart 3 series" %></center></h3>
+<%= bar_chart @datos2 %>
 <hr>
 
 <h3><center><%= "Area Chart" %></center></h3>
