@@ -63,5 +63,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-gem 'chartkick',                        '>= 3.3.0'      # Use graphics
+gem 'chartkick',                        '>= 5.0.4'      # Use graphics
 gem 'highcharts-rails',                 '~> 6.0.3'      # Use graphics
